@@ -22,6 +22,8 @@ import { TaskModule } from "./task/task.module";
 import { UserModule } from "./user/user.module";
 import { NotificationModule } from "./notification/notification.module";
 import { ReviewTemplateModule } from "./reviewTemplate/reviewTemplate.module";
+import { AutomatedNotificationsModule } from "./automatednotifications/automatednotifications.module";
+import { ReviewTemplatesModule } from "./reviewtemplates/reviewtemplates.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -52,6 +54,8 @@ import { AuthModule } from "./auth/auth.module";
     UserModule,
     NotificationModule,
     ReviewTemplateModule,
+    AutomatedNotificationsModule,
+    ReviewTemplatesModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
